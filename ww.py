@@ -22,16 +22,8 @@ questions_list.append(
         Question('Какого цвета нет на флаге России?', 'Зелёный', 'Красный', 'Белый', 'Синий'))
 questions_list.append(
         Question('Национальная хижина якутов', 'Ураса', 'Юрта', 'Иглу', 'Хата'))
- 
 app = QApplication([])
  
-btn_OK = QPushButton('Ответить') # кнопка ответа
-lb_Question = QLabel('Самый сложный вопрос в мире!') # текст вопроса
- 
-RadioGroupBox = QGroupBox("Варианты ответов") # группа на экране для переключателей с ответами
- 
-rbtn_1 = QRadioButton('Вариант 1')
-rbtn_2 = QRadioButton('Вариант 2')
 rbtn_3 = QRadioButton('Вариант 3')
 rbtn_4 = QRadioButton('Вариант 4')
  
