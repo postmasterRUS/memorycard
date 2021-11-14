@@ -33,13 +33,6 @@ RadioGroup.addButton(rbtn_2)
 RadioGroup.addButton(rbtn_3)
 RadioGroup.addButton(rbtn_4)
  
-layout_ans1 = QHBoxLayout()   
-layout_ans2 = QVBoxLayout() # вертикальные будут внутри горизонтального
-layout_ans3 = QVBoxLayout()
-layout_ans2.addWidget(rbtn_1) # два ответа в первый столбец
-layout_ans2.addWidget(rbtn_2)
-layout_ans3.addWidget(rbtn_3) # два ответа во второй столбец
-layout_ans3.addWidget(rbtn_4)
  
 layout_ans1.addLayout(layout_ans2)
 layout_ans1.addLayout(layout_ans3) # разместили столбцы в одной строке
